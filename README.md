@@ -5,6 +5,10 @@ DogStatsd wrapper lib for Python.
 * Python `3.6` or `3.7`
 
 ## Install
+You can install `statsd-wrap` with pip for example by putting following to your `requirements.txt`.
+```
+-e git+https://github.com/giosg/statsd-wrap.git@0.1.0#egg=statsd-wrap
+```
 
 ## Development
 
