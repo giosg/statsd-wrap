@@ -1,0 +1,21 @@
+---
+kind: pipeline
+name: "Python 3.6"
+
+steps:
+- name: test
+  image: python:3.6
+  commands:
+  - pip install -e .
+  - bash run_tests.sh
+
+---
+kind: pipeline
+name: "Python 3.7"
+
+steps:
+- name: test
+  image: python:3.7
+  commands:
+  - pip install -e .
+  - bash run_tests.sh

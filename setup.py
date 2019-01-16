@@ -1,0 +1,24 @@
+from setuptools import find_packages, setup
+
+setup(
+    name='statsd-wrap',
+    version='0.1.0',
+    description='Wrapper for Datadog StatsD client.',
+    author='giosg',
+    author_email='developers@giosg.com',
+    url='https://github.com/giosg/statsd-wrap',
+    packages=find_packages(
+        exclude=[]
+    ),
+    # TODO: Maybe load these from requirements.txt
+    install_requires=[
+        'datadog==0.26.0',
+    ],
+    extras_require={
+        'dev': [
+            'flake8',
+            'mypy',
+        ]
+    },
+    classifiers=[],
+)
