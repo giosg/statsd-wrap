@@ -7,9 +7,8 @@ setup(
     author='giosg',
     author_email='developers@giosg.com',
     url='https://github.com/giosg/statsd-wrap',
-    packages=find_packages(
-        exclude=[]
-    ),
+    package_data={"statsd_wrap": ["py.typed"]},
+    packages=["statsd_wrap"],
     # TODO: Maybe load these from requirements.txt
     install_requires=[
         'datadog==0.26.0',
