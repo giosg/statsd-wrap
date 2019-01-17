@@ -1,8 +1,8 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 setup(
     name='statsd-wrap',
-    version='0.2.0',
+    version='0.3.0',
     description='Wrapper for Datadog StatsD client.',
     author='giosg',
     author_email='developers@giosg.com',
