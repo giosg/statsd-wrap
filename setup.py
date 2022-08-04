@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='statsd-wrap',
-    version='0.4.0',
+    version='1.0.0',
     description='Wrapper for Datadog StatsD client.',
     author='giosg',
     author_email='developers@giosg.com',
@@ -11,7 +11,7 @@ setup(
     packages=["statsd_wrap"],
     # TODO: Maybe load these from requirements.txt
     install_requires=[
-        'datadog==0.26.0',
+        'datadog==0.44.0',
     ],
     extras_require={
         'dev': [
